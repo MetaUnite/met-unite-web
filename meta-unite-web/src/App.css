@@ -227,7 +227,7 @@ margin-left: 2rem;
   padding: 2rem 0;
  }
 
-  /* Download button css start  */
+  /* Download a css start  */
 
  .btn-container{
   max-width: 52%;
@@ -242,7 +242,7 @@ margin-left: 2rem;
   gap: 1rem;
  }
 
- button {
+ a {
   position: relative;
   padding: 10px 0;
   max-width: 100px;
@@ -255,9 +255,10 @@ margin-left: 2rem;
   border-radius: 5px;
   transition: all 0.5s;
   border: none;
+  text-align: center;
 }
 
-button::before {
+a::before {
   position: absolute;
   content: '';
   top: 0;
@@ -270,12 +271,12 @@ button::before {
   z-index: 1;
 }
 
-button:hover::before {
+a:hover::before {
   opacity: 0;
   transform: scale(0.7,0.7);
 }
 
-button::after {
+a::after {
   content: '';
   position: absolute;
   top: 0;
@@ -290,7 +291,7 @@ button::after {
   z-index: 1;
 }
 
-button:hover::after {
+a:hover::after {
   opacity: 1;
   transform: scale(1,1);
 }
@@ -331,12 +332,12 @@ footer a {
    flex-direction: column;
     align-items: center;  
   }
-  button{
+  a{
     margin-bottom: 1rem;
     width: 11.5em;
     height: 3.5em;
   }
-  button p{
+  a p{
     font-size: 0.7rem;
   }
   .intro{
@@ -393,7 +394,7 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  button {
+  a {
  height: 40px;
  width: 130px;
  font-size: 13px;

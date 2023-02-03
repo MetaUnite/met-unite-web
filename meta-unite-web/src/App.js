@@ -21,31 +21,72 @@ function App() {
         </div>
         <div class="btn-container">
           <div class="meta-btn">
-            <button>Windows</button>
-            <button>Mac</button>
-            <button>IOS</button>
-            <button>Android</button>
+            <a
+              style={{ textDecoration: "none", color: "#fff" }}
+              href="https://meta-unite-metavers.s3.ap-south-1.amazonaws.com/application-link/MetaUnite(24.0).zip"
+            >
+              Windows
+            </a>
+            <a>Mac</a>
+            <a>IOS</a>
+            <a>Android</a>
           </div>
         </div>
       </section>
       <section id="about">
         <div class="information">
-            <h2 class="que">What is a Meta Unite ?</h2>
-            <p>Metaunite is transforming the way we meet and collaborate in the digital world. We are the world's first Metaverse meeting app, designed specifically to provide professionals and students with an unparalleled personalised experience.</p> 
+          <h2 class="que">What is a Meta Unite ?</h2>
+          <p>
+            Metaunite is transforming the way we meet and collaborate in the
+            digital world. We are the world's first Metaverse meeting app,
+            designed specifically to provide professionals and students with an
+            unparalleled personalised experience.
+          </p>
 
-            <p>Metaunite was founded in 2022 with the mission of making global collaboration easy and providing a user-friendly platform for remote meetings. Unlike traditional video conferencing platforms, Metaunite is designed to offer a unique and tailored experience for each user, giving them the ability to customize their Avatars and meeting space according to their preferences.</p>
-                
-                <p> Unlike other video conferencing apps, Metaunite allows for a more immersive meeting experience. Our app is built to allow users to connect with one another through an immersive 3D environment. Our AI-powered system powers personalized avatars for each user and allows for the integration of virtual objects. This allows users to have a more engaging and interactive meeting experience.</p>
-                
-                <p>Metaunite also allows users to access and leverage their social network. Our app gives users access to their contacts and allows them to easily invite their friends and colleagues to join in on the conversation. Additionally, our app offers a variety of collaboration tools, such as chat and voice chat, which allow users to easily connect with one another and collaborate.</p>
-                
-               <p>At Metaunite, we believe that collaboration should be simple and enjoyable. Our mission is to make the world of collaboration more accessible to everyone, no matter where they are or who they are with. With the help of our innovative technology, we are making remote collaboration easier than ever and helping professionals and students collaborate more effectively and in a FUN way.</p>
+          <p>
+            Metaunite was founded in 2022 with the mission of making global
+            collaboration easy and providing a user-friendly platform for remote
+            meetings. Unlike traditional video conferencing platforms, Metaunite
+            is designed to offer a unique and tailored experience for each user,
+            giving them the ability to customize their Avatars and meeting space
+            according to their preferences.
+          </p>
 
+          <p>
+            {" "}
+            Unlike other video conferencing apps, Metaunite allows for a more
+            immersive meeting experience. Our app is built to allow users to
+            connect with one another through an immersive 3D environment. Our
+            AI-powered system powers personalized avatars for each user and
+            allows for the integration of virtual objects. This allows users to
+            have a more engaging and interactive meeting experience.
+          </p>
+
+          <p>
+            Metaunite also allows users to access and leverage their social
+            network. Our app gives users access to their contacts and allows
+            them to easily invite their friends and colleagues to join in on the
+            conversation. Additionally, our app offers a variety of
+            collaboration tools, such as chat and voice chat, which allow users
+            to easily connect with one another and collaborate.
+          </p>
+
+          <p>
+            At Metaunite, we believe that collaboration should be simple and
+            enjoyable. Our mission is to make the world of collaboration more
+            accessible to everyone, no matter where they are or who they are
+            with. With the help of our innovative technology, we are making
+            remote collaboration easier than ever and helping professionals and
+            students collaborate more effectively and in a FUN way.
+          </p>
         </div>
         <div class="logo-image">
-            <img style={{height:"70%",width:"100%"}} src="./assets/human.png"/>
+          <img
+            style={{ height: "70%", width: "100%" }}
+            src="./assets/human.png"
+          />
         </div>
-    </section>
+      </section>
       {/* <section id="about">
         <div class="information">
           <h2 class="que">What is a Meta Unite ?</h2>
