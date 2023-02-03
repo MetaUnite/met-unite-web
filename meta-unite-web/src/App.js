@@ -27,7 +27,12 @@ function App() {
             >
               Windows
             </a>
-            <a>Mac</a>
+            <a
+              style={{ textDecoration: "none", color: "#fff" }}
+              href="https://meta-unite-metavers.s3.ap-south-1.amazonaws.com/application-link/MetaUnite(24.0)MAC.zip"
+            >
+              Mac
+            </a>
             <a>IOS</a>
             <a>Android</a>
           </div>
