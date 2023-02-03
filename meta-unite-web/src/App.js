@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <nav>
-        <img src="./assets/meta-logo.png" />
+        <img src="./assets/meta-logo.png" alt="/" />
         <p>Contact Us</p>
       </nav>
       <section id="home">
@@ -15,7 +15,7 @@ function App() {
               <h1>Meta Unite</h1>
             </div>
             <div class="logometa">
-              <img src="./assets/logometa.png" width={100} />
+              <img src="./assets/logometa.png" width={100} alt="/" />
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ function App() {
           </p>
         </div>
         <div class="logo-image">
-          <img src="./assets/human.png" />
+          <img src="./assets/human.png" alt="/" />
         </div>
       </section>
       <section id="key-features">
