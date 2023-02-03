@@ -33,8 +33,18 @@ function App() {
             >
               Mac
             </a>
-            <a>IOS</a>
-            <a>Android</a>
+            <a
+              style={{ textDecoration: "none", color: "#fff" }}
+              href="https://ioair.link/rj8pby"
+            >
+              IOS
+            </a>
+            <a
+              style={{ textDecoration: "none", color: "#fff" }}
+              href="https://drive.google.com/file/d/1kb-Gt6DVN4dj1y4HmCrqY9KTNEMaj4TY/view?usp=sharing"
+            >
+              Android
+            </a>
           </div>
         </div>
       </section>
